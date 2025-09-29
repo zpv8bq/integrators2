@@ -20,7 +20,7 @@ def main():
 
     volume = 0.0
     stdev = 0.0
-    relerror=0
+    relerror=0.0
 
     # *******
 
