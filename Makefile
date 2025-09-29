@@ -15,10 +15,10 @@ sobol: sobol.cpp
 	$(GXX) $(CXXFLAGS) -o sobol sobol.cpp $(LDFLAGS)
 
 5630start: 5630start.cpp
-	$(GXX) $(CXXFLAGS) -o 56xxstart 56xxstart.cpp $(LDFLAGS)
+	$(GXX) $(CXXFLAGS) -o 5630start 5630start.cpp $(LDFLAGS)
 
 3630start: 3630start.cpp
-	$(GXX) $(CXXFLAGS) -o 36xxstart 36xxstart.cpp $(LDFLAGS)
+	$(GXX) $(CXXFLAGS) -o 3630start 3630start.cpp $(LDFLAGS)
 
 clean:
 	rm -f sobol 56xxstart 36xxstart
